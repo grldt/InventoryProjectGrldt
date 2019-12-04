@@ -27,11 +27,11 @@ public class FirebaseDBActivity extends AppCompatActivity {
         btCreateDB = (Button) findViewById(R.id.bt_createdata);
         btViewDB = (Button) findViewById(R.id.bt_viewdata);
 
-        firebaseAuth = FirebaseAuth.getInstance();
-
-        if(firebaseAuth.getCurrentUser() == null){
-            startActivity(new Intent(this, Login.class));
-        }
+//        firebaseAuth = FirebaseAuth.getInstance();
+//
+//        if(firebaseAuth.getCurrentUser() == null){
+//            startActivity(new Intent(this, Login.class));
+//        }
 
         btCreateDB.setOnClickListener(new View.OnClickListener() {
             @Override
