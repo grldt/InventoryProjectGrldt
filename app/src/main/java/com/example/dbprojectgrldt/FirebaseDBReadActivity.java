@@ -118,7 +118,7 @@ public class FirebaseDBReadActivity extends AppCompatActivity implements Adapter
             database.child("barang").child(barang.getKey()).removeValue().addOnSuccessListener(new OnSuccessListener<Void>() {
                 @Override
                 public void onSuccess(Void aVoid) {
-                    Toast.makeText(FirebaseDBReadActivity.this,"success delete", Toast.LENGTH_LONG).show();
+                    Toast.makeText(FirebaseDBReadActivity.this,"Delete successful", Toast.LENGTH_LONG).show();
                 }
             });
 
