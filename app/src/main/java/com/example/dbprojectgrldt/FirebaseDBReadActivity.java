@@ -22,10 +22,6 @@ import java.util.ArrayList;
 import com.example.dbprojectgrldt.adapter.AdapterBarangRecyclerView;
 import com.example.dbprojectgrldt.model.Barang;
 
-/**
- * Created by Herdi_WORK on 18.06.17.
- */
-
 public class FirebaseDBReadActivity extends AppCompatActivity implements AdapterBarangRecyclerView.FirebaseDataListener {
 
     /**

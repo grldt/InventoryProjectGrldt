@@ -19,10 +19,6 @@ import com.example.dbprojectgrldt.FirebaseDBReadSingleActivity;
 import com.example.dbprojectgrldt.R;
 import com.example.dbprojectgrldt.model.Barang;
 
-/**
- * Created by Hafizh Herdi on 10/8/2017.
- */
-
 public class AdapterBarangRecyclerView extends RecyclerView.Adapter<AdapterBarangRecyclerView.ViewHolder> {
 
     private ArrayList<Barang> daftarBarang;
@@ -90,7 +86,7 @@ public class AdapterBarangRecyclerView extends RecyclerView.Adapter<AdapterBaran
                  */
                 final Dialog dialog = new Dialog(context);
                 dialog.setContentView(R.layout.dialog_view);
-                dialog.setTitle("Pilih Aksi");
+                dialog.setTitle("Action");
                 dialog.show();
 
                 Button editButton = (Button) dialog.findViewById(R.id.bt_edit_data);

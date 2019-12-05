@@ -19,10 +19,6 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import com.example.dbprojectgrldt.model.Barang;
 
-/**
- * Created by Herdi_WORK on 08.08.17.
- */
-
 public class FirebaseDBCreateActivity extends AppCompatActivity {
 
     // variable yang merefers ke Firebase Realtime Database

@@ -4,10 +4,6 @@ import com.google.firebase.database.IgnoreExtraProperties;
 
 import java.io.Serializable;
 
-/**
- * Created by Herdi_WORK on 18.06.17.
- */
-
 @IgnoreExtraProperties
 public class Barang implements Serializable {
 

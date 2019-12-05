@@ -11,10 +11,6 @@ import android.widget.EditText;
 
 import com.example.dbprojectgrldt.model.Barang;
 
-/**
- * Created by Hafizh Herdi on 10/15/2017.
- */
-
 public class FirebaseDBReadSingleActivity extends AppCompatActivity {
 
     private Button btSubmit;

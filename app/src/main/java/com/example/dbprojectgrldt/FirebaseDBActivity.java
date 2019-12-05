@@ -9,10 +9,6 @@ import android.widget.Button;
 
 import com.google.firebase.auth.FirebaseAuth;
 
-/**
- * Created by Herdi_WORK on 07.05.17.
- */
-
 public class FirebaseDBActivity extends AppCompatActivity {
 
     private Button btCreateDB;
@@ -26,12 +22,6 @@ public class FirebaseDBActivity extends AppCompatActivity {
 
         btCreateDB = (Button) findViewById(R.id.bt_createdata);
         btViewDB = (Button) findViewById(R.id.bt_viewdata);
-
-//        firebaseAuth = FirebaseAuth.getInstance();
-//
-//        if(firebaseAuth.getCurrentUser() == null){
-//            startActivity(new Intent(this, Login.class));
-//        }
 
         btCreateDB.setOnClickListener(new View.OnClickListener() {
             @Override
