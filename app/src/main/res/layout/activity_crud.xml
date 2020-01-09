@@ -11,7 +11,7 @@
         android:layout_margin="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Grldt Database Application"
+        android:text="Inventory Application"
         android:textSize="25dp"
         android:textColor="#ffffff"
         android:paddingBottom="20dp"/>
@@ -27,7 +27,7 @@
             android:id="@+id/bt_createdata"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Tambah Data"
+            android:text="Add Data"
             style="@style/Widget.AppCompat.Button.Colored"/>
 
         <Button
@@ -35,7 +35,7 @@
             android:id="@+id/bt_viewdata"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Lihat Data" />
+            android:text="View Data" />
 
     </LinearLayout>
 

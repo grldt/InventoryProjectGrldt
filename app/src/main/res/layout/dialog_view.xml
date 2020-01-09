@@ -12,7 +12,7 @@
         android:id="@+id/bt_edit_data"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Edit Data"
+        android:text="Edit"
         android:background="#ffffff"
         android:textColor="@color/colorAccent"
         />
